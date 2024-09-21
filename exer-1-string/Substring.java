@@ -8,6 +8,6 @@ public class Substring {
 
     static boolean isSubstring(String s1, String s2) {
         // supply code here
-
+        System.out.println('2222');
     }
 }
