@@ -6,8 +6,8 @@ public class Substring {
 
     }
 
-    static boolean isSubstring(String s1, String s2) {
+    static void isSubstring(String s1, String s2) {
         // supply code here
-
+        System.out.println("need ko iadd to sa repo");
     }
 }
