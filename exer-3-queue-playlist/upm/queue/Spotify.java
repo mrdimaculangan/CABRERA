@@ -2,7 +2,8 @@ package upm.queue;
 
 public class Spotify {
 
-    // create a queue named playlist.
+    // create a queue named playlist
+    // use a linkedlist or a arraylist its fine.
 
     // supply the needed constructor
     public Spotify() {
@@ -13,7 +14,6 @@ public class Spotify {
      * {artist} - {title}
      * BINI - SALAMIN
      */
-
     public void playNext() {
 
     }
