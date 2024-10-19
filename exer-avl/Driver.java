@@ -1,7 +1,5 @@
 import java.io.FileNotFoundException;
 import java.io.IOException;
-import java.util.Arrays;
-import java.util.List;
 
 public class Driver {
 
@@ -10,7 +8,7 @@ public class Driver {
     public static void main(String[] args) {
         CsvReader csvReader = new CsvReader();
         try {
-            csvReader.loadCSV(csvFileName);
+            csvReader.loadCSVtoList(csvFileName);
         } catch (FileNotFoundException e) {
             e.printStackTrace();
         } catch (IOException e) {
